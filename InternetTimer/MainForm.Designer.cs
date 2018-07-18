@@ -53,6 +53,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.intervalMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.limitKbSec)).BeginInit();
             this.panel2.SuspendLayout();
@@ -92,7 +93,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 92);
+            this.label1.Location = new System.Drawing.Point(16, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 12;
@@ -104,7 +105,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 118);
+            this.label6.Location = new System.Drawing.Point(16, 101);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 13);
             this.label6.TabIndex = 13;
@@ -116,7 +117,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDownload.AutoSize = true;
-            this.lblDownload.Location = new System.Drawing.Point(110, 92);
+            this.lblDownload.Location = new System.Drawing.Point(144, 75);
             this.lblDownload.Name = "lblDownload";
             this.lblDownload.Size = new System.Drawing.Size(13, 13);
             this.lblDownload.TabIndex = 14;
@@ -128,7 +129,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUpload.AutoSize = true;
-            this.lblUpload.Location = new System.Drawing.Point(110, 118);
+            this.lblUpload.Location = new System.Drawing.Point(144, 101);
             this.lblUpload.Name = "lblUpload";
             this.lblUpload.Size = new System.Drawing.Size(13, 13);
             this.lblUpload.TabIndex = 15;
@@ -357,6 +358,7 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.AutoScroll = true;
+            this.splitContainer1.Panel1.Controls.Add(this.linkLabel1);
             this.splitContainer1.Panel1.Controls.Add(this.lblUpload);
             this.splitContainer1.Panel1.Controls.Add(this.lblDownload);
             this.splitContainer1.Panel1.Controls.Add(this.cmbInterface);
@@ -380,6 +382,18 @@
             this.splitContainer1.Size = new System.Drawing.Size(584, 311);
             this.splitContainer1.SplitterDistance = 237;
             this.splitContainer1.TabIndex = 21;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkLabel1.Location = new System.Drawing.Point(16, 212);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(37, 13);
+            this.linkLabel1.TabIndex = 12;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Автор";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // MainForm
             // 
@@ -431,6 +445,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

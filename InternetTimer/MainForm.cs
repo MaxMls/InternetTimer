@@ -174,5 +174,9 @@ namespace InternetTimer {
             Settings.Default.Reset();
             InitializeSettings();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            Process.Start("https://vk.com/max_0");
+        }
     }
 }
