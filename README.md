@@ -10,5 +10,10 @@
 Скачать [Windows x32/x64](https://github.com/MaxMls/InternetTimer/releases "Необязательная подсказка")
 (Программа полностью бесплатна и не содержит рекламы)
 
+Инструкция:
+1. Запусти программу.
+2. Выбери интерфейс через который идет передача данных
+3. Сверни программу, она будет работать в фоновом режиме
+
 ![Иллюстрация к проекту](https://github.com/MaxMls/InternetTimer/blob/master/readme/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG)
 ![Иллюстрация к проекту](https://github.com/MaxMls/InternetTimer/blob/master/readme/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2.PNG)
